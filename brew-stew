@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # pylint: disable=locally-disabled, line-too-long, invalid-name
 
 import argparse
@@ -15,7 +15,7 @@ from pprint import pprint
 from time import gmtime, strftime
 
 BREW_BIN = '/usr/local/bin/brew'
-SANTA_BIN = '/Library/Extensions/santa-driver.kext/Contents/MacOS/santactl'
+SANTA_BIN = '/usr/local/bin/santactl'
 INSTALL_LOCATION = '/usr/local'
 
 # Some additional items which are erroneously not listed in `brew ls --unbrewed`
